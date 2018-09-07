@@ -9,6 +9,7 @@ public class Player : MonoBehaviour {
 	private GameObject _player;
 
 	private Transform _target;
+	private Weapon _weapon;
 	
 	[SerializeField]
 	private float _speed;
@@ -25,6 +26,8 @@ public class Player : MonoBehaviour {
 		{
 			Debug.LogError("Player is null");
 		}
+		
+		
 	}
 	
 	// Update is called once per frame
